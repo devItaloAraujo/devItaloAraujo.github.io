@@ -3,15 +3,62 @@
     <head>
         <title>Portfólio de Ítalo Araujo</title>
         <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <style>
+            h1 {
+                font-family: 'Comfortaa', cursive;
+                font-size: 2em;
+                background-color: #4ADDBB;
+                width: fit-content;
+                padding: 8px 10px;
+            }
+            h2 {
+                background-color: #4ADDBB;
+                width: fit-content;
+                padding: 5px 10px;
+            }
+            body {
+                font-size: 16px;
+                background-color: #F0D3F7;
+                font-family: 'Comfortaa', cursive;
+            }
+
+            #foto1 {
+                border-radius: 100%;
+                width: 200px;
+            }
+            .botao {
+                text-decoration: none;
+                background-color: #6883BA;
+                color: #FBF9FF;
+                padding: 10px 20px;
+                font-size: 0.8em;
+                border-radius: 10px;
+                line-height: 20px;
+            }
+            .item {
+                font-size: 1em;
+                color:white;
+            }
+
+           .conteudo {
+                background-color: #3D3B8E;
+                color: white;
+                width: fit-content;
+                padding: 20px;
+            }
+
+        </style>
     </head>
     <body>
         <h1>  Ítalo Jean Araújo de Souza  </h1>
         <hr>
         <h2>  Índice  </h2>
-        <ul>
-            <li><a href="#foto1"> Foto  </a> </li>
-            <li><a href="#descricao"> Descrição </a> </li>
-            <li><a href="#habilidades"> Habilidades </a></li>
+        <ul class="conteudo">
+            <li  ><a class="item" href="#descricao"> Descrição </a> </li>
+            <li ><a class="item" href="#habilidades"> Habilidades </a></li>
         </ul>
 
         <hr>
@@ -20,26 +67,27 @@
         
         <hr>
 
-        <h3 id="descricao"> Descrição </h3>
-        <p> <em> Sou o Ítalo Araújo, um desenvolvedor 
+        <h2 id="descricao"> Descrição </h3>
+        <p class="conteudo"> <em> Sou o Ítalo Araújo, um desenvolvedor 
             em treinamento pela Trybe e desde pequeno bastante curioso e com paixão de aprender, sempre 
             tive afinidade com a lógica computacional e desenvolvimento, nascido e residente de Belo Horizonte, Minas Gerais, Brasil. </em> </p>
 
         <hr>
 
-            <h3 id="habilidades"> Habilidades </h3>
-        <ul>
-            <li> <strong> Proatividade </strong> </li>
-            <li> <strong> Resiliência e consistência </strong> </li>
-            <li> JavaScript </li>
-            <li> HTML e CSS </li>
-            <li> Git e GitHub </li>
+        <h2 id="habilidades"> Habilidades </h3>
+        <ul class="conteudo">
+            <li class="item"> <strong> Proatividade </strong> </li>
+            <li class="item"> <strong> Resiliência e consistência </strong> </li>
+            <li class="item"> JavaScript </li>
+            <li class="item"> HTML e CSS </li>
+            <li class="item"> Git e GitHub </li>
         </ul>
 
         <hr>
 
-        <p><a href="https://www.linkedin.com/in/italo-jean-araujo-de-souza/" target="_blank"> Meu Perfil Linkedin </a></p>
-        <p><a href="#foto1"> Minha Foto </a></p>
+        <p><a class="botao" href="https://www.linkedin.com/in/italo-jean-araujo-de-souza/" target="_blank"> Meu perfil Linkedin </a></p>
+      
+        <p><a class="botao" href="#foto1"> Minha foto </a></p>
 
     </body>
 
