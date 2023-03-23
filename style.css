@@ -1,0 +1,70 @@
+h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+    background-color: #4ADDBB;
+    width: fit-content;
+    padding: 8px 10px;
+}
+
+div:first-of-type{
+    display: flex;
+   justify-content: center;
+}
+
+h2 {
+    background-color: #4ADDBB;
+    width: fit-content;
+    padding: 5px 10px;
+    font-size: 30px;
+}
+body {
+    font-size: 16px;
+    background-color: #F0D3F7;
+    font-family: 'Comfortaa', cursive;
+}
+
+#foto1 {
+    border-radius: 100%;
+    width: 300px;
+    float: left;
+    padding: 30px;
+    background-color: #3D3B8E;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.botao {
+    text-decoration: none;
+    background-color: #6883BA;
+    color: #FBF9FF;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    line-height: 20px;
+}
+.item {
+    font-size: 1em;
+    color:white;
+}
+
+.conteudo {
+    background-color: #3D3B8E;
+    color: white;
+    width: fit-content;
+    padding: 20px;
+}
+
+p.conteudo {
+    width: 40%;
+    float: left;
+    text-align: center;
+    
+}
+
+.conteudo {
+    font-size: 25px;
+}
+
+#habilidades {
+    clear: both;
+}
