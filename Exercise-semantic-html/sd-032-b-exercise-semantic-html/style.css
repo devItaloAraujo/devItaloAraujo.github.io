@@ -1,0 +1,75 @@
+h1 {
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+nav {
+    background-color: lightblue;
+    text-align: center;
+    font-size: 16px;
+}
+nav a {
+    margin-right: 30px;
+}
+p {
+    font-size: 16px;
+}
+
+article {
+    border: 5px solid black;
+    display: inline-block;
+    width: fit-content;
+    float: left;
+    margin-top: 50px;
+    padding: 10px;
+}
+aside {
+    display: inline-block;
+    float: left;
+    width: 400px;
+}
+aside a {
+    display: block;
+    float: left;
+    font-size: 30px;
+    width: auto;
+    margin-top: 50px;
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: #6883BA;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+aside img{
+    width: 400px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 10px;
+    clear: both;
+    right: 0;
+    bottom: 450px;
+}
+aside {
+    display: inline block;
+    float: left;
+}
+footer {
+    clear:both;
+}
+h2 {
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+h3 {
+    background-color: aqua;
+    font-size: 16px;
+    text-transform:uppercase;
+}
+table tr th, table tr td {
+    border: 2px solid black;
+}
+article img {
+    margin-left: 30%;
+}

@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+header {
+  display: block;
+  position: fixed;
+  top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+  background-color: rgb(38, 70, 83);
+  color: white;
+  width: 100%;
+  padding: 10px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+th {
+  display: inline-block;
+  margin: 10px;
+}
+
+img {
+  display: block;
+  width: 300px;
+  margin: 10px;
+  margin-top: 150px;
+  border: 5px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.botao {
+  display: inline-block;
+  clear: both;
+  float: left;
+  width: fit-content;
+  background-color: rgb(231, 111, 81);
+  padding: 20px 40px;
+  font-size: 16px;
+  border-radius: 10px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.botao a {
+  text-decoration: none;
+  color: white;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  background-color: rgb(233, 196, 106);
+  margin: 5px;
+}
+
+.lado-direito {
+  display: inline-block;
+  float: right;
+  width: 45%;
+  background-color: rgb(244, 162, 97);
+  margin: 5px;
+}
+
+h2 , p {
+  margin-left: 10px;
+}
+
+footer {
+  clear: both;
+}
