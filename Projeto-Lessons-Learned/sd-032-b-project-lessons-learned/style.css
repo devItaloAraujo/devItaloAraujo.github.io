@@ -73,9 +73,9 @@ img {
 .lado-esquerdo {
   display: inline-block;
   float: left;
-  width: 50%;
+  width: 45%;
   background-color: rgb(233, 196, 106);
-  margin: 5px;
+  margin: 1%;
 }
 
 .lado-direito {
@@ -83,7 +83,7 @@ img {
   float: right;
   width: 45%;
   background-color: rgb(244, 162, 97);
-  margin: 5px;
+  margin: 1%;
 }
 
 h2 , p {
