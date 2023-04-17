@@ -91,7 +91,7 @@ const paint = (event) => {
 };
 
 const paint2 = (event) => {
-  if (event.which) {
+  if (event.which === 1) {
     event.target.style.backgroundColor = document.querySelector('.selected').style.backgroundColor;
 }};
 
