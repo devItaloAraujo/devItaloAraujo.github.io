@@ -1,0 +1,17 @@
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card img {
+  position: absolute;
+  margin-left: -200px;
+}
+
+.card h2, .card p, .card a {
+  position: relative;
+}
