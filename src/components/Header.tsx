@@ -5,7 +5,7 @@ export default function Header() {
 
       <h1>  Ítalo Jean Araújo de Souza  </h1>
 
-      <img src="src/assets/ITALOPERFIL.png" alt="Foto Ítalo Sorrindo" />
+      <img src="src/assets/images/ITALOPERFIL.png" alt="Foto Ítalo Sorrindo" />
 
       <h2 id="descricao"> Descrição </h2>
 
